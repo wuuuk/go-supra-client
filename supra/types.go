@@ -1,6 +1,6 @@
 package supra
 
-import "github.com/wuuuk/go-bcs/bcs"
+import "github.com/fardream/go-bcs/bcs"
 
 type ProofData struct {
 	Decimals   [][]uint16       `json:"decimals"`

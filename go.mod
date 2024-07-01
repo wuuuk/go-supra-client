@@ -3,10 +3,12 @@ module github.com/wuuuk/go-supra-client
 go 1.22.1
 
 require (
-	github.com/wuuuk/go-bcs v0.4.2
+	github.com/fardream/go-bcs v0.4.2
 	google.golang.org/grpc v1.62.1
 	google.golang.org/protobuf v1.33.0
 )
+
+replace github.com/fardream/go-bcs => github.com/W3Tools/go-bcs v0.0.1
 
 require (
 	github.com/golang/protobuf v1.5.3 // indirect

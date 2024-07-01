@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/wuuuk/go-bcs/bcs"
+	"github.com/fardream/go-bcs/bcs"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
